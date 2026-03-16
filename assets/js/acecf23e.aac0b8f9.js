@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunk_7_lun_website=globalThis.webpackChunk_7_lun_website||[]).push([[1903],{1912(l){l.exports=JSON.parse('{"blogBasePath":"/7lun-log/blog","blogTitle":"Blog","authorsListPath":"/7lun-log/blog/authors"}')}}]);
