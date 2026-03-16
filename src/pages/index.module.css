@@ -1,0 +1,244 @@
+/**
+ * 奶茶色系風格表
+ */
+
+/* --- 基礎設定與修復跑版 --- */
+.mainContainer * {
+  box-sizing: border-box; /* 確保 padding 不會撐破盒子 */
+}
+
+.mainContainer {
+  padding: 100px 0;
+  background-color: #fdfaf5; /* 輕奶茶色底 */
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  color: #6f4e37; /* 深咖啡色 */
+  font-weight: bold;
+}
+
+/* --- 關於我 --- */
+.aboutSection {
+  margin-bottom: 120px;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.aboutText {
+  flex: 1;
+}
+
+.greeting {
+  font-size: 3rem; /* 維持 7Lun 的大字體視覺焦點 */
+  color: #6f4e37; /* 原本的質感深棕色 */
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column; /* 讓主副標題自動上下排 */
+  gap: 0.5rem; /* 標題之間的微小間距 */
+}
+
+.subGreeting {
+  font-size: 1.5rem; /* 副標題縮小，不搶主標題風采 */
+  color: #a88b75; /* 使用較淺的奶茶色，增加視覺層次 */
+  font-weight: 600; /* 字體稍微變細 */
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.5; /* 增加行距，讓文章更好閱讀 */
+  color: #4a4a4a; /* 用深灰色代替純黑，看起來更柔和 */
+  margin-bottom: 2rem;
+}
+
+.actionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navBtn {
+  background-color: #6f4e37; /* 按鈕顏色 */
+  color: #ffffff !important;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.navBtn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+/* 圓形大頭貼修復 */
+.avatarImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* 圓形 */
+  object-fit: cover; /* 防止變形 */
+  border: 5px solid #e1cbad; /* 奶茶色框 */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --- 技能區 (Flexbox 3x2) --- */
+.skillsSection {
+  margin-bottom: 120px;
+}
+
+.skillFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skillCard {
+  flex: 0 1 calc(33.333% - 20px); /* 桌面端每行三個 */
+  min-width: 280px;
+  background-color: #ffffff;
+  padding: 2.5rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.skillCard:hover {
+  transform: translateY(-8px);
+  background-color: #f5ece2;
+}
+
+.skillName {
+  color: #5d4037;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.skillDesc {
+  color: #795548;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* --- 作品區 (Flexbox 1x2) --- */
+.projectFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.projectItemCard {
+  flex: 0 1 calc(50% - 15px); /* 桌面端每行兩個 */
+  min-width: 400px;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  text-decoration: none !important;
+  color: inherit !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectItemCard:hover {
+  transform: translateY(-12px);
+  cursor: pointer;
+}
+
+.projectImageWrapper {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+.projectImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.6s;
+}
+.projectItemCard:hover .projectImg {
+  transform: scale(1.05);
+}
+
+.projectContent {
+  padding: 2.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.projectTitle {
+  font-size: 1.7rem;
+  color: #5d4037;
+  margin-bottom: 1rem;
+}
+.projectDesc {
+  color: #795548;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  background: #eee0d0;
+  color: #6f4e37;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.projectLinkText {
+  color: #6f4e37;
+  font-weight: bold;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+/* --- RWD 手機版適配 --- */
+@media (max-width: 996px) {
+  .aboutContent {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 3rem;
+  }
+  .actionButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skillCard {
+    flex: 0 1 calc(50% - 20px);
+  } /* 平板每行兩個 */
+  .projectItemCard {
+    flex: 1 1 100%;
+    min-width: unset;
+  } /* 手機作品滿版 */
+  .avatarImage {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillCard {
+    flex: 1 1 100%;
+  } /* 手機技能滿版 */
+  .greeting {
+    font-size: 2.5rem;
+  }
+}
