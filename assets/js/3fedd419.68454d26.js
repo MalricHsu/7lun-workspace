@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_7_lun_website=globalThis.webpackChunk_7_lun_website||[]).push([[5173],{9745(e){e.exports=JSON.parse('{"metadata":{"permalink":"/7lun-log/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,0 +1,29 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/7lun-log/blog/welcome",
+      "unlisted": false,
+      "date": "2021-08-26T00:00:00.000Z"
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/7lun-log/blog/mdx-blog-post",
+      "unlisted": false,
+      "date": "2021-08-01T00:00:00.000Z"
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/7lun-log/blog/long-blog-post",
+      "unlisted": false,
+      "date": "2019-05-29T00:00:00.000Z"
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/7lun-log/blog/first-blog-post",
+      "unlisted": false,
+      "date": "2019-05-28T00:00:00.000Z"
+    }
+  ]
+}
