@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MalricHsu.github.io/7lun-workspace/blog</id>
-    <title>7lun 的程式手冊 Blog</title>
+    <title>將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MalricHsu.github.io/7lun-workspace/blog"/>
-    <subtitle>7lun 的程式手冊 Blog</subtitle>
-    <icon>https://MalricHsu.github.io/7lun-workspace/img/logo.png</icon>
+    <subtitle>將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。 Blog</subtitle>
+    <icon>https://MalricHsu.github.io/7lun-workspace/img/logo.jpg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://MalricHsu.github.io/7lun-workspace/blog/welcome</id>
