@@ -1,22 +1,20 @@
-/**
- * 奶茶色系風格表
- */
-
 /* --- 基礎設定與修復跑版 --- */
 .mainContainer * {
-  box-sizing: border-box; /* 確保 padding 不會撐破盒子 */
+  box-sizing: border-box;
+  /* 確保 padding 不會撐破盒子 */
 }
 
 .mainContainer {
   padding: 100px 0;
-  background-color: #fdfaf5; /* 輕奶茶色底 */
+  background-color: #fdfaf5;
+  /* 輕奶茶色底 */
 }
 
 .sectionTitle {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 4rem;
-  color: #6f4e37; /* 深咖啡色 */
+  color: #6f4e37;
   font-weight: bold;
 }
 
@@ -37,26 +35,27 @@
 }
 
 .greeting {
-  font-size: 3rem; /* 維持 7Lun 的大字體視覺焦點 */
-  color: #6f4e37; /* 原本的質感深棕色 */
+  font-size: 3rem;
+  color: #6f4e37;
   margin-bottom: 1rem;
   display: flex;
-  flex-direction: column; /* 讓主副標題自動上下排 */
-  gap: 0.5rem; /* 標題之間的微小間距 */
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .subGreeting {
-  font-size: 1.5rem; /* 副標題縮小，不搶主標題風采 */
-  color: #a88b75; /* 使用較淺的奶茶色，增加視覺層次 */
-  font-weight: 600; /* 字體稍微變細 */
+  font-size: 1.5rem;
+  color: #a88b75;
+  font-weight: 600;
   margin-bottom: 2rem;
 }
 
 .description {
   font-size: 1.1rem;
-  line-height: 1.5; /* 增加行距，讓文章更好閱讀 */
-  color: #4a4a4a; /* 用深灰色代替純黑，看起來更柔和 */
+  line-height: 1.5;
+  color: #4a4a4a;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .actionButtons {
@@ -66,7 +65,7 @@
 }
 
 .navBtn {
-  background-color: #6f4e37; /* 按鈕顏色 */
+  background-color: #6f4e37;
   color: #ffffff !important;
   padding: 0.9rem 2rem;
   border-radius: 50px;
@@ -85,41 +84,77 @@
 
 /* 圓形大頭貼修復 */
 .avatarImage {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%; /* 圓形 */
-  object-fit: cover; /* 防止變形 */
-  border: 5px solid #e1cbad; /* 奶茶色框 */
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1x solid #e1cbad;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* --- 技能區 (Flexbox 3x2) --- */
+/* --- 技能區 --- */
 .skillsSection {
   margin-bottom: 120px;
+}
+
+.skillCategory {
+  margin-bottom: 4rem;
+}
+
+.skillCategory:last-child {
+  margin-bottom: 0;
+}
+
+.categoryTitle {
+  font-size: 2rem;
+  color: #6f4e37;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(111, 78, 55, 0.1);
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.categoryTitle span {
+  font-size: 1.1rem;
+  color: #a88b75;
+  font-weight: 500;
 }
 
 .skillFlexContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  gap: 25px;
+  justify-content: flex-start;
 }
 
 .skillCard {
-  flex: 0 1 calc(33.333% - 20px); /* 桌面端每行三個 */
-  min-width: 280px;
-  background-color: #ffffff;
-  padding: 2.5rem 1.5rem;
+  flex: 1 1 calc(33.333% - 25px);
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem 2rem;
   border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-  transition: 0.3s;
+  text-align: left;
+  box-shadow: 0 8px 32px rgba(111, 78, 55, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.coreCard {
+  flex: 1 1 calc(50% - 25px);
 }
 
 .skillCard:hover {
-  transform: translateY(-8px);
-  background-color: #f5ece2;
+  transform: translateY(-8px) scale(1.02);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 15px 45px rgba(111, 78, 55, 0.1);
+  border-color: #e1cbad;
 }
 
 .skillName {
@@ -127,6 +162,7 @@
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
+
 .skillDesc {
   color: #795548;
   font-size: 0.95rem;
@@ -142,8 +178,9 @@
 }
 
 .projectItemCard {
-  flex: 0 1 calc(50% - 15px); /* 桌面端每行兩個 */
-  min-width: 400px;
+  flex: 0 1 calc(50% - 15px);
+  /* 桌面端每行兩個 */
+  min-width: 500px;
   background: white;
   border-radius: 25px;
   overflow: hidden;
@@ -164,12 +201,14 @@
   height: 260px;
   overflow: hidden;
 }
+
 .projectImg {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.6s;
 }
+
 .projectItemCard:hover .projectImg {
   transform: scale(1.05);
 }
@@ -180,14 +219,32 @@
   display: flex;
   flex-direction: column;
 }
+
+.projectCategory {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #c07d58;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
 .projectTitle {
   font-size: 1.7rem;
   color: #5d4037;
   margin-bottom: 1rem;
 }
+
 .projectDesc {
   color: #795548;
   line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.tagGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 2rem;
 }
 
@@ -197,47 +254,114 @@
   padding: 0.4rem 1rem;
   border-radius: 6px;
   font-size: 0.8rem;
-  margin-right: 0.6rem;
-  margin-bottom: 0.6rem;
   font-weight: 600;
 }
 
-.projectLinkText {
-  color: #6f4e37;
-  font-weight: bold;
+.projectFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: auto;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(111, 78, 55, 0.1);
+}
+
+.projectLinks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.textLink {
+  color: #6f4e37 !important;
+  font-weight: 600;
+  text-decoration: underline !important;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.textLink:hover {
+  color: #a88b75 !important;
+}
+
+.separator {
+  color: rgba(111, 78, 55, 0.3);
+  font-size: 0.9rem;
+}
+
+.readMoreLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none !important;
+  color: #6f4e37 !important;
+  transition: all 0.3s ease;
+}
+
+.readMoreHint {
+  font-size: 0.8rem;
+  color: inherit;
+  font-weight: 500;
+}
+
+.readMoreArrow {
+  font-size: 1.15rem;
+  color: inherit;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+
+.readMoreLink:hover {
+  color: #a88b75 !important;
+  transform: translate(4px, -4px);
 }
 
 /* --- RWD 手機版適配 --- */
-@media (max-width: 996px) {
+@media (max-width: 992px) {
   .aboutContent {
     flex-direction: column-reverse;
     text-align: center;
     gap: 3rem;
   }
+
   .actionButtons {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
   }
+
   .skillCard {
     flex: 0 1 calc(50% - 20px);
-  } /* 平板每行兩個 */
+  }
+
+  /* 平板每行兩個 */
   .projectItemCard {
     flex: 1 1 100%;
     min-width: unset;
-  } /* 手機作品滿版 */
+  }
+
+  /* 手機作品滿版 */
   .avatarImage {
     width: 220px;
     height: 220px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
+  .actionButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .skillCard {
     flex: 1 1 100%;
-  } /* 手機技能滿版 */
+  }
+
+  /* 手機技能滿版 */
   .greeting {
     font-size: 2.5rem;
   }

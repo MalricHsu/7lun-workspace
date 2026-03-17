@@ -3,11 +3,12 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "7lun 的程式手冊", // 更新主標題
-  tagline: "將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。", // 更新副標題
-  favicon: "img/logo.png",
+  title: "將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。",
+  tagline: "",
+  favicon: "img/logo.jpg",
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap",
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css",
   ],
   clientModules: [require.resolve("./src/clientModules/scrollHandler.js")],
 
@@ -17,7 +18,7 @@ const config = {
 
   // GitHub Pages 設定
   url: "https://MalricHsu.github.io",
-  baseUrl: "/7lun-workspace/", // 建議結尾加上斜線
+  baseUrl: "/7lun-workspace/",
 
   organizationName: "MalricHsu",
   projectName: "7lun-workspace",
@@ -27,8 +28,8 @@ const config = {
   onBrokenLinks: "ignore",
 
   i18n: {
-    defaultLocale: "zh-Hans",
-    locales: ["zh-Hans"],
+    defaultLocale: "zh-Hant",
+    locales: ["zh-Hant"],
   },
 
   presets: [
@@ -54,7 +55,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/logo.png",
+      image: "img/logo.jpg",
       colorMode: {
         disableSwitch: true,
         defaultMode: "light",
@@ -63,7 +64,7 @@ const config = {
         title: "7lun 的程式手冊",
         hideOnScroll: false,
         items: [
-          { to: "/about", label: "關於作者", position: "right" }, // 統一 4 字
+          { to: "/about", label: "關於7lun", position: "right" },
           { to: "/portfolio", label: "專案作品", position: "right" },
           {
             type: "docSidebar",
@@ -85,7 +86,7 @@ const config = {
         links: [
           {
             items: [
-              { label: "關於作者", to: "/about" },
+              { label: "關於7lun", to: "/about" },
               { label: "專案作品", to: "/portfolio" },
               { label: "語法手冊", to: "/docs/intro" },
               { label: "生存日誌", to: "/blog" },

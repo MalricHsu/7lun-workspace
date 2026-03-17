@@ -22,7 +22,7 @@ a.navbar__brand:hover .navbar__title {
 }
 
 /* --- 導覽列雙層置中邏輯 (優化版) --- */
-@media (min-width: 997px) {
+@media (min-width: 993px) {
   .navbar {
     height: auto !important;
     padding: 1.8rem 0 1.2rem 0 !important; /* 初始稍微加寬，滾動後更有感 */
@@ -143,7 +143,7 @@ span,
 /* ========================================= */
 /* --- 手機版側邊選單 RWD (安全間距版) --- */
 /* ========================================= */
-@media (max-width: 996px) {
+@media (max-width: 992px) {
   /* 1. 奶茶底色與頂部去除底線 */
   .navbar-sidebar {
     background-color: #f5f0e6 !important;
@@ -268,7 +268,7 @@ span,
 /* ========================================= */
 /* 7. 手機版適配 (對齊你提供的手機版截圖) */
 /* ========================================= */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   /* 容器改為直向排列、全部置中 */
   .footer .container {
     flex-direction: column !important;
