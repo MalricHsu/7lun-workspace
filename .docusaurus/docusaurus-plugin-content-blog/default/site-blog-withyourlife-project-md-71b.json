@@ -3,7 +3,7 @@
   "source": "@site/blog/withyourlife-project.md",
   "title": "伴你在日常 — 長照輔具電商平台",
   "description": "前言",
-  "date": "2026-05-22T14:51:34.289Z",
+  "date": "2026-05-23T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
@@ -19,7 +19,7 @@
     }
   ],
   "readingTime": 8.41,
-  "hasTruncateMarker": true,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "7Lun",
@@ -38,10 +38,11 @@
     "tags": [
       "project",
       "切版網站"
-    ]
+    ],
+    "date": "2026-05-23T00:00:00.000Z"
   },
   "unlisted": false,
-  "prevItem": {
+  "nextItem": {
     "title": "YeStep 每一步，找回生活的呼吸",
     "permalink": "/7lun-workspace/blog/yestep-project"
   }

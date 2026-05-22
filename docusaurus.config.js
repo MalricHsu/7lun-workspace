@@ -26,7 +26,11 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: "ignore",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   i18n: {
     defaultLocale: "zh-Hant",

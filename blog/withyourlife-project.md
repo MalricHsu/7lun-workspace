@@ -3,6 +3,7 @@ slug: withyourlife-project
 title: 伴你在日常 — 長照輔具電商平台
 authors: [7lun]
 tags: [project, 切版網站]
+date: 2026-05-23
 ---
 
 ### 前言
@@ -16,8 +17,6 @@ tags: [project, 切版網站]
 - **專案管理**：Notion / GitHub / Discord
 - **專案時程**：2025.07.01 ~ 2025.10.02
 - **網站部署**：GitHub Pages
-
-<!-- truncate -->
 
 ### 一、 主題發想
 

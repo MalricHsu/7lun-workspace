@@ -3,6 +3,7 @@ slug: yestep-project
 title: YeStep 每一步，找回生活的呼吸
 authors: [7lun]
 tags: [project, React]
+date: 2026-05-23
 ---
 
 ### 前言
@@ -15,8 +16,6 @@ tags: [project, React]
 - **團隊角色**：組長 / 前端開發(React) / API 模擬與部署(JSON Server)
 - **專案管理**：Notion / GitHub / Discord
 - **專案時程**：2025.10.15 ~ 2026.02.28
-
-<!-- truncate -->
 
 ### 一、 主題發想
 

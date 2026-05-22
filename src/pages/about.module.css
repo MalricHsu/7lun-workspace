@@ -218,4 +218,14 @@
   .rightItem .timelineContent:hover {
     transform: translateY(-3px);
   }
+
+  .introTitle {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .introContent, .introText {
+    text-align: center;
+  }
 }

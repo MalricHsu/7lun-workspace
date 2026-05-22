@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/7lun-workspace/blog',
-    component: ComponentCreator('/7lun-workspace/blog', '8ca'),
+    component: ComponentCreator('/7lun-workspace/blog', '6b3'),
     exact: true
   },
   {
@@ -69,7 +69,7 @@ export default [
   },
   {
     path: '/7lun-workspace/blog/tags/project',
-    component: ComponentCreator('/7lun-workspace/blog/tags/project', '4c9'),
+    component: ComponentCreator('/7lun-workspace/blog/tags/project', 'ffa'),
     exact: true
   },
   {

@@ -17,23 +17,24 @@ export default {
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
-      "useCssCascadeLayers": true
+      "useCssCascadeLayers": true,
+      "siteStorageNamespacing": true,
+      "fasterByDefault": true,
+      "mdx1CompatDisabledByDefault": true
     },
-    "experimental_faster": {
-      "swcJsLoader": false,
-      "swcJsMinimizer": false,
-      "swcHtmlMinimizer": false,
-      "lightningCssMinimizer": false,
-      "mdxCrossCompilerCache": false,
-      "rspackBundler": false,
-      "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
-    },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
-    "experimental_router": "browser"
+    "experimental_vcs": {},
+    "experimental_router": "browser",
+    "faster": {
+      "swcJsLoader": true,
+      "swcJsMinimizer": true,
+      "swcHtmlMinimizer": true,
+      "lightningCssMinimizer": true,
+      "mdxCrossCompilerCache": true,
+      "rspackBundler": true,
+      "rspackPersistentCache": true,
+      "ssgWorkerThreads": true,
+      "gitEagerVcs": true
+    }
   },
   "url": "https://MalricHsu.github.io",
   "baseUrl": "/7lun-workspace/",
@@ -42,6 +43,23 @@ export default {
   "deploymentBranch": "gh-pages",
   "trailingSlash": false,
   "onBrokenLinks": "ignore",
+  "markdown": {
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    },
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": false,
+      "admonitions": false,
+      "headingIds": false
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
   "i18n": {
     "defaultLocale": "zh-Hant",
     "locales": [
@@ -296,6 +314,10 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "storage": {
+    "type": "localStorage",
+    "namespace": true
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -307,22 +329,5 @@ export default {
   "scripts": [],
   "headTags": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };

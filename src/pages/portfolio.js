@@ -5,10 +5,10 @@ import styles from "./index.module.css";
 
 function PortfolioHeader() {
   return (
-    <div className="container text--center" style={{ padding: "4rem 0" }}>
-      <h1 className={styles.sectionTitle}>7Lun專案作品集</h1>
-      <p className={styles.description} style={{ textAlign: "center", lineHeight: "1.8" }}>
-        這裡紀錄了我從零開始，一步步打磨出的專案成果。<br />
+    <div className="container" style={{ padding: "4rem 1rem" }}>
+      <h1 className={styles.sectionTitle} style={{ textAlign: "left" }}>7Lun專案作品集</h1>
+      <p className={styles.description} style={{ textAlign: "left", lineHeight: "1.8" }}>
+        這裡紀錄了我從零開始，一步步打磨出的專案成果。
         不只是程式碼的堆疊，更是解決問題、提升使用者體驗的實戰軌跡。
       </p>
     </div>
