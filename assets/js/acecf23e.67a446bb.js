@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_lun_website=self.webpackChunk_7_lun_website||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/7lun-workspace/blog","blogTitle":"Blog","authorsListPath":"/7lun-workspace/blog/authors"}')}}]);

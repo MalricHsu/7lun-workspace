@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_lun_website=self.webpackChunk_7_lun_website||[]).push([["1187"],{1447(e){e.exports=JSON.parse('{"authors":[{"name":"7Lun","title":"Junior Front-End Developer","imageURL":"/7lun-workspace/img/author.png","key":"7lun","page":null,"count":2}]}')}}]);

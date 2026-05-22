@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunk_7_lun_website=globalThis.webpackChunk_7_lun_website||[]).push([[4050],{2191(e){e.exports=JSON.parse('{"metadata":{"permalink":"/7lun-workspace/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

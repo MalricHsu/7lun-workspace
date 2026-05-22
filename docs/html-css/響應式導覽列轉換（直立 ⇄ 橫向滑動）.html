@@ -1,0 +1,205 @@
+<!doctype html><html lang=zh-Hant dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.1"><title data-rh=true>響應式導覽列轉換（直立 ⇄ 橫向滑動） | 將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:image content=https://MalricHsu.github.io/7lun-workspace/img/logo.jpg /><meta data-rh=true name=twitter:image content=https://MalricHsu.github.io/7lun-workspace/img/logo.jpg /><meta data-rh=true property=og:url content="https://MalricHsu.github.io/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）"/><meta data-rh=true property=og:locale content=zh_Hant /><meta data-rh=true name=docusaurus_locale content=zh-Hant /><meta data-rh=true name=docsearch:language content=zh-Hant /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="響應式導覽列轉換（直立 ⇄ 橫向滑動） | 將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。"/><meta data-rh=true name=description content=一、前言 /><meta data-rh=true property=og:description content=一、前言 /><link data-rh=true rel=icon href=/7lun-workspace/img/logo.jpg /><link data-rh=true rel=canonical href="https://MalricHsu.github.io/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）"/><link data-rh=true rel=alternate href="https://MalricHsu.github.io/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）" hreflang=zh-Hant /><link data-rh=true rel=alternate href="https://MalricHsu.github.io/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）" hreflang=x-default /><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://MalricHsu.github.io/7lun-workspace/docs/category/html--css","name":"HTML / CSS","position":1},{"@type":"ListItem","item":"https://MalricHsu.github.io/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）","name":"響應式導覽列轉換（直立 ⇄ 橫向滑動）","position":2}]}</script><link rel=alternate type=application/rss+xml href=/7lun-workspace/blog/rss.xml title="將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。 RSS Feed"><link rel=alternate type=application/atom+xml href=/7lun-workspace/blog/atom.xml title="將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。 Atom Feed"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css><link rel=stylesheet href=/7lun-workspace/assets/css/styles.84f76d92.css /><script src=/7lun-workspace/assets/js/runtime~main.df2efad0.js defer></script><script src=/7lun-workspace/assets/js/main.5dd04619.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t;document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><div role=region aria-label=跳至主要内容><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>跳至主要内容</a></div><nav aria-label=主導航 class="theme-layout-navbar navbar navbar--fixed-top"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label=切換導覽列 aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/7lun-workspace/><b class="navbar__title text--truncate">7lun 的程式手冊</b></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a class="navbar__item navbar__link" href=/7lun-workspace/about>關於7lun</a><a class="navbar__item navbar__link" href=/7lun-workspace/portfolio>專案作品</a><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/7lun-workspace/docs/intro>語法手冊</a><a class="navbar__item navbar__link" href=/7lun-workspace/blog>生存日誌</a><a href=https://github.com/MalricHsu target=_blank rel="noopener noreferrer" class="navbar__item navbar__link header-github-link">GitHub<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label=回到頂部 class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label=文件側邊欄 class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/7lun-workspace/docs/intro><span title=語法手冊 class=linkLabel_WmDU>語法手冊</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href=/7lun-workspace/docs/category/html--css><span title="HTML / CSS" class=categoryLinkLabel_W154>HTML / CSS</span></a><button aria-label="收起側邊欄分類 'HTML / CSS'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/7lun-workspace/docs/html-css/HTML基本介紹><span title=HTML基本介紹 class=linkLabel_WmDU>HTML基本介紹</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/Background 使用方法"><span title="Background 使用方法" class=linkLabel_WmDU>Background 使用方法</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/Font 字體介紹"><span title="Font 字體介紹" class=linkLabel_WmDU>Font 字體介紹</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/網站LOGO 圖片取代文字方法"><span title=網站LOGO圖片取代文字方法 class=linkLabel_WmDU>網站LOGO圖片取代文字方法</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/7lun-workspace/docs/html-css/RWD響應式設計-斷點相關資訊><span title=RWD響應式設計-斷點相關資訊 class=linkLabel_WmDU>RWD響應式設計-斷點相關資訊</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/Sass 介紹"><span title="Sass 介紹" class=linkLabel_WmDU>Sass 介紹</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/複合選擇器 介紹"><span title=複合選擇器介紹 class=linkLabel_WmDU>複合選擇器介紹</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/Bootstrap 5 文件介紹"><span title="Bootstrap 5 文件介紹" class=linkLabel_WmDU>Bootstrap 5 文件介紹</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/7lun-workspace/docs/html-css/格線系統><span title=格線系統 class=linkLabel_WmDU>格線系統</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第一堂 1 px 也不差的版型控制術"><span title="第一堂 1 px 也不差的版型控制術" class=linkLabel_WmDU>第一堂 1 px 也不差的版型控制術</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第二堂 Flex 網頁排版術"><span title="第二堂 Flex 網頁排版術" class=linkLabel_WmDU>第二堂 Flex 網頁排版術</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第三堂 RWD 響應式網頁"><span title="第三堂 RWD 響應式網頁" class=linkLabel_WmDU>第三堂 RWD 響應式網頁</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第四堂 多頁式網頁"><span title="第四堂 多頁式網頁" class=linkLabel_WmDU>第四堂 多頁式網頁</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第五堂 表單設計"><span title="第五堂 表單設計" class=linkLabel_WmDU>第五堂 表單設計</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第六堂 導入網頁規範設計流程"><span title="第六堂 導入網頁規範設計流程" class=linkLabel_WmDU>第六堂 導入網頁規範設計流程</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第七堂 網頁動態"><span title="第七堂 網頁動態" class=linkLabel_WmDU>第七堂 網頁動態</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/第八堂 實戰總複習"><span title="第八堂 實戰總複習" class=linkLabel_WmDU>第八堂 實戰總複習</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/2025 切版直播 - Tailwind 加碼講義"><span title="2025 切版直播 - Tailwind 加碼講義" class=linkLabel_WmDU>2025 切版直播 - Tailwind 加碼講義</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href="/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）"><span title="響應式導覽列轉換（直立 ⇄ 橫向滑動）" class=linkLabel_WmDU>響應式導覽列轉換（直立 ⇄ 橫向滑動）</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href="/7lun-workspace/docs/html-css/Position 定位"><span title="Position 定位" class=linkLabel_WmDU>Position 定位</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/7lun-workspace/docs/category/javascript><span title=JavaScript class=categoryLinkLabel_W154>JavaScript</span></a><button aria-label="展開側邊欄分類 'JavaScript'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/7lun-workspace/docs/category/react><span title=React class=categoryLinkLabel_W154>React</span></a><button aria-label="展開側邊欄分類 'React'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/7lun-workspace/docs/category/nodejs><span title=Node.js class=categoryLinkLabel_W154>Node.js</span></a><button aria-label="展開側邊欄分類 'Node.js'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/7lun-workspace/docs/category/vuejs><span title=Vue.js class=categoryLinkLabel_W154>Vue.js</span></a><button aria-label="展開側邊欄分類 'Vue.js'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/7lun-workspace/docs/category/git><span title=Git class=categoryLinkLabel_W154>Git</span></a><button aria-label="展開側邊欄分類 'Git'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=頁面路徑><ul class=breadcrumbs><li class=breadcrumbs__item><a aria-label=主頁面 class=breadcrumbs__link href=/7lun-workspace/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><a class=breadcrumbs__link href=/7lun-workspace/docs/category/html--css><span>HTML / CSS</span></a><li class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link>響應式導覽列轉換（直立 ⇄ 橫向滑動）</span></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">本頁導覽</button></div><div class="theme-doc-markdown markdown"><header><h1>響應式導覽列轉換（直立 ⇄ 橫向滑動）</h1></header><h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=一前言>一、前言<a href=#一前言 class=hash-link aria-label=一、前言的直接連結 title=一、前言的直接連結 translate=no>​</a></h3>
+<p>在 RWD 設計中，當分類選單項目較多時：</p>
+<ul>
+<li class=""><strong>桌機版（大螢幕）</strong>：寬度夠，適合放在側邊欄，採用<strong>直立排列（Vertical）</strong>。</li>
+<li class=""><strong>手機版（小螢幕）</strong>：直立會佔用過多垂直空間（導致使用者一直往下滾動）。最佳解法是改為<strong>頂部橫向排列（Horizontal）</strong>，並允許<strong>水平溢流滾動（Scroll）</strong>，同時隱藏滾動條以求美觀。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=二技術拆解>二、技術拆解<a href=#二技術拆解 class=hash-link aria-label=二、技術拆解的直接連結 title=二、技術拆解的直接連結 translate=no>​</a></h3>
+<ul>
+<li class="">三個關鍵技術點：</li>
+</ul>
+<ol>
+<li class=""><strong>防止 Flex 擠壓變形 (<code>flex-shrink: 0</code>)</strong>
+<ul>
+<li class="">在手機版橫排時，我們通常會使用 <code>display: flex</code>。但 Flexbox 預設會拼命把所有子元素壓縮，好塞進同一個畫面中（這會導致選單文字斷行、變形）。</li>
+<li class=""><strong>解法</strong>：在子項目（<code>.nav-item</code>）加上 <code>flex-shrink: 0</code>。</li>
+<li class=""><strong>效果</strong>：強制子項目「不准縮小」，維持自己原本設定好的舒適寬度（Padding 撐開的寬度）。</li>
+</ul>
+</li>
+<li class=""><strong>水平溢流與阻尼感 (<code>overflow-x</code> & <code>touch</code>)</strong>
+<ul>
+<li class="">在手機版，我們必須限制外容器不能超出螢幕，但內容器可以自由往右延伸。</li>
+<li class=""><strong>解法</strong>：<!-- -->
+<ul>
+<li class="">外層容器設定 <code>width: 100%</code> 加上 <code>overflow-x: auto</code>。</li>
+<li class="">加上 <code>white-space: nowrap</code>，強制裡面的文字絕對不換行。</li>
+<li class="">加上 <code>webkit-overflow-scrolling: touch</code>，讓 iOS 的 Safari 或 Chrome 瀏覽器在用手指滑動選單時，擁有像原生 App 一樣流暢、有彈性的「阻尼感（回彈效果）」。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><strong>利用 Media Query 進行「排版大洗牌」</strong>
+<ul>
+<li class="">我們以 Bootstrap 5 的 <code>lg</code> 斷點（<code>992px</code>）為分界點：<!-- -->
+<ul>
+<li class=""><strong><code>&lt; 992px</code>（手機版）</strong>：<code>flex-direction: row</code>（橫排），外層開啟 <code>overflow-x: auto</code>。</li>
+<li class=""><strong><code>≥ 992px</code>（桌機版）</strong>：將 <code>flex-direction</code> 轉為 <code>column</code>（直排），外層關閉滾動（<code>overflow-x: visible</code>）、允許正常換行（<code>white-space: normal</code>）。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=三名詞解釋>三、名詞解釋<a href=#三名詞解釋 class=hash-link aria-label=三、名詞解釋的直接連結 title=三、名詞解釋的直接連結 translate=no>​</a></h3>
+<ol>
+<li class="">
+<p><strong><code>overflow</code> 系列</strong>：當子元素大於父元素時，決定如何處理「溢出」的部分。</p>
+<table><thead><tr><th>屬性<th>作用<tbody><tr><td><code>overflow-x</code><td>管理水平(左右)溢出<tr><td><code>overflow-y</code><td>管理垂直(上下)溢出<tr><td><code>auto</code>(值)<td>內容溢出時才顯示滾動條,乾淨不佔空間<tr><td><code>hidden</code>(值)<td>直接切掉溢出部分,看不見也摸不到</table>
+</li>
+<li class="">
+<p><strong><code>white-space: nowrap</code></strong>：強制不換行</p>
+<ul>
+<li class="">**用途：**水平滑動選單的靈魂屬性</li>
+<li class="">**不加的後果：**選單項目會掉到第二行，滾動效果做不出來</li>
+</ul>
+</li>
+<li class="">
+<p><code>w**ebkit-overflow-scrolling: touch**</code>：流暢度補強</p>
+<ul>
+<li class="">**效果：**手指放開後產生「慣性回彈」的阻尼感</li>
+<li class="">**不加的後果：**滑動感生硬，像在滑一塊木頭</li>
+</ul>
+</li>
+<li class="">
+<p>消失的滾動條</p>
+<ul>
+<li class="">**目的：**可以滾動，但不顯示醜醜的拉桿。</li>
+</ul>
+</li>
+</ol>
+<table><thead><tr><th>寫法<th>對應瀏覽器<tbody><tr><td><code>&::-webkit-scrollbar { display: none; }</code><td>Chrome、Safari、Edge<tr><td><code>-ms-overflow-style: none;</code><td>IE、舊版 Edge<tr><td><code>scrollbar-width: none;</code><td>Firefox</table>
+<aside><p>💡<p><strong>三段必須一起寫,才能跨瀏覽器全部隱藏。</strong></aside>
+<ol>
+<li class=""><strong><code>align-items: stretch</code></strong>：垂直拉皮</li>
+</ol>
+<ul>
+<li class="">**預設值：**這是 Flexbox 的預設值，常被忽略</li>
+<li class="">**實戰意義：**直立選單中，文字長短不一時,背景顏色仍會橫向撐滿整齊</li>
+</ul>
+<ol>
+<li class="">
+<p><strong>Flex 三兄弟</strong>：這三個屬性是 Flex 子元素的核心,決定它們如何「分配空間」。</p>
+<ol>
+<li class="">
+<p><code>flex-grow</code></p>
+<ul>
+<li class="">**解釋：**當父容器有「多餘空間」時，我要改變大小嗎?</li>
+<li class=""><strong>預設值</strong>:<code>0</code>：保持原本大小</li>
+<li class="">**設為 <code>1</code> 以上：**把多餘空間吃掉</li>
+<li class="">**多個元素都設值時：**按比例分配<!-- -->
+<ul>
+<li class="">例如 A=<code>1</code>、B=<code>2</code>，B 會搶到 A 的兩倍空間</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">
+<p><code>flex-shrink</code></p>
+<ul>
+<li class="">**解釋：**當父容器「空間不夠」時，我願不願意提壓縮自己的空間</li>
+<li class=""><strong>預設值：</strong><code>1</code>：願意被壓縮</li>
+<li class=""><strong>設為 <code>0</code></strong>：不願意被壓縮</li>
+<li class="">**重要性：**水平滾動選單中,，設 <code>0</code> 會導致分類文字被擠到變形或疊在一起</li>
+</ul>
+</li>
+<li class="">
+<p><code>flex-basis</code></p>
+<ul>
+<li class="">**解釋：**在使用 grow / shrink 之前，我「原本」應該有多寬(或多高)？</li>
+<li class=""><strong>預設值：</strong><code>auto</code> 根據內容自動決定</li>
+<li class="">**可設定值：**像 <code>200px</code>、<code>50%</code>、<code>10rem</code> 等</li>
+<li class=""><strong>與 <code>width</code> 的差別</strong>:<!-- -->
+<ul>
+<li class=""><code>width</code> 是「死的」尺寸</li>
+<li class=""><code>flex-basis</code> 是「起始」尺寸，之後可被 grow/shrink 調整</li>
+<li class="">同時設定時，<code>flex-basis</code> 會勝出</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">
+<p>對照表</p>
+<table><thead><tr><th>屬性<th>預設值<th>控制情境<th>設為 0 的意義<tbody><tr><td><code>flex-grow</code><td><code>0</code><td>空間有剩<td>保持原本大小<tr><td><code>flex-shrink</code><td><code>1</code><td>空間不夠<td>不願意被壓縮<tr><td><code>flex-basis</code><td><code>auto</code><td>起始尺寸<td>從 0 開始計算</table>
+</li>
+<li class="">
+<p>縮寫語法 <code>flex</code></p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style=--prism-color:#bfc7d5;--prism-background-color:#292d3e><div class=codeBlockContent_QJqH><pre tabindex=0 class="prism-code language-css codeBlock_bY9V thin-scrollbar" style=color:#bfc7d5;background-color:#292d3e><code class=codeBlockLines_e6Vv><div class=token-line style=color:#bfc7d5><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 完整寫法 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex-grow</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex-shrink</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex-basis</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain" style=display:inline-block></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 縮寫(順序固定) */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain" style=display:inline-block></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 常見快捷值 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 等於 1 1 0%,最常用,平均分配空間 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> auto</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 等於 1 1 auto,依內容大小彈性分配 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token property">flex</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> none</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 等於 0 0 auto,完全不彈性,寫死尺寸 */</span><br/></div></code></pre></div></div>
+</li>
+</ol>
+</li>
+<li class="">
+<p><code>transition</code> ：讓 CSS 從「瞬間切換」變成「平滑動畫」。</p>
+<ul>
+<li class="">完整語法結構 → 四個參數依序排列，<strong>順序固定不能亂寫</strong>。<!-- -->
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style=--prism-color:#bfc7d5;--prism-background-color:#292d3e><div class=codeBlockContent_QJqH><pre tabindex=0 class="prism-code language-css codeBlock_bY9V thin-scrollbar" style=color:#bfc7d5;background-color:#292d3e><code class=codeBlockLines_e6Vv><div class=token-line style=color:#bfc7d5><span class="token property">transition</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> [屬性] [持續時間] [速度曲線] [延遲時間]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br/></div></code></pre></div></div>
+</li>
+<li class="">四個參數詳解<!-- -->
+<ol>
+<li class="">屬性(<code>transition-property</code>)<!-- -->
+<ul>
+<li class="">**作用：**指定要監控「哪個屬性」的變化</li>
+<li class=""><strong>常用值：</strong>
+<ul>
+<li class=""><code>all</code>：監控所有屬性變化(最方便但效能較差)</li>
+<li class="">指定單一屬性：<code>background-color</code>、<code>transform</code>、<code>opacity</code></li>
+<li class="">多個屬性：用逗號分隔 <code>background-color, transform</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="">持續時間(<code>transition-duration</code>)<!-- -->
+<ul>
+<li class=""><strong>作用</strong>:動畫要花多久時間完成</li>
+<li class=""><strong>常用值</strong>:<!-- -->
+<ul>
+<li class=""><code>0.2s</code>:符合人體工學的「快感」(按鈕、Hover 最佳值)</li>
+<li class=""><code>0.3s</code>:稍微慢一點,適合卡片、選單</li>
+<li class=""><code>0.5s</code> 以上:大型元件、頁面切換</li>
+</ul>
+</li>
+<li class=""><strong>單位</strong>:<code>s</code>(秒)或 <code>ms</code>(毫秒,1s = 1000ms)</li>
+</ul>
+</li>
+<li class="">速度曲線(<code>transition-timing-function</code>)<!-- -->
+<ul>
+<li class="">**作用：**動畫的「節奏感」,先快還是先慢</li>
+<li class=""><strong>常用值：</strong>
+<table><thead><tr><th>值<th>節奏<th>使用場景<tbody><tr><td><code>linear</code><td>從頭到尾等速<td>進度條、跑馬燈<tr><td><code>ease</code><td>慢→快→慢(預設值)<td>一般通用<tr><td><code>ease-in</code><td>慢慢起步,後面變快<td>元素離開畫面<tr><td><code>ease-out</code><td>快速起步,慢慢停下<td>元素進入畫面<tr><td><code>ease-in-out</code><td>慢→快→慢(更明顯)<td>質感最好,通用<tr><td><code>cubic-bezier(...)</code><td>自訂曲線<td>客製化動畫</table>
+</li>
+</ul>
+</li>
+<li class="">延遲時間(<code>transition-delay</code>)<!-- -->
+<ul>
+<li class="">**作用：**動畫「等多久」才開始</li>
+<li class=""><strong>預設值：</strong><code>0s</code>(立即執行)</li>
+<li class=""><strong>使用場景</strong>：做連鎖動畫、tooltip 提示框延遲顯示</li>
+</ul>
+</li>
+</ol>
+</li>
+<li class="">常見錯誤與注意事項<!-- -->
+<ol>
+<li class=""><strong><code>transition</code> 寫在「原本的狀態」，不是 <code>:hover</code></strong></li>
+</ol>
+</li>
+</ul>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style=--prism-color:#bfc7d5;--prism-background-color:#292d3e><div class=codeBlockContent_QJqH><pre tabindex=0 class="prism-code language-css codeBlock_bY9V thin-scrollbar" style=color:#bfc7d5;background-color:#292d3e><code class=codeBlockLines_e6Vv><div class=token-line style=color:#bfc7d5><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* ❌ 錯誤 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token selector class" style="color:rgb(199, 146, 234)">.btn</span><span class="token selector pseudo-class" style="color:rgb(199, 146, 234)">:hover</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">background</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token color">red</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">transition</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> all </span><span class="token number" style="color:rgb(247, 140, 108)">0.2</span><span class="token unit">s</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 寫這裡只有 hover 進去會動畫,離開瞬間切換 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain" style=display:inline-block></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* ✅ 正確 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token selector class" style="color:rgb(199, 146, 234)">.btn</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">transition</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> all </span><span class="token number" style="color:rgb(247, 140, 108)">0.2</span><span class="token unit">s</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 寫在原始狀態,進出都有動畫 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token selector class" style="color:rgb(199, 146, 234)">.btn</span><span class="token selector pseudo-class" style="color:rgb(199, 146, 234)">:hover</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">background</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token color">red</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><br/></div></code></pre></div></div>
+</li>
+<li class="">
+<p>多行文字截斷：當文字太長時,只顯示 N 行,多餘的用「...」表示。</p>
+<ul>
+<li class="">多行截斷(顯示 3 行)<!-- -->
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style=--prism-color:#bfc7d5;--prism-background-color:#292d3e><div class=codeBlockContent_QJqH><pre tabindex=0 class="prism-code language-css codeBlock_bY9V thin-scrollbar" style=color:#bfc7d5;background-color:#292d3e><code class=codeBlockLines_e6Vv><div class=token-line style=color:#bfc7d5><span class="token selector class" style="color:rgb(199, 146, 234)">.text-clamp</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">display</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> -webkit-box</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">-webkit-box-orient</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> vertical</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">-webkit-line-clamp</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">3</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">overflow</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> hidden</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">text-overflow</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> ellipsis</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><br/></div></code></pre></div></div>
+</li>
+<li class="">單行截斷<!-- -->
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style=--prism-color:#bfc7d5;--prism-background-color:#292d3e><div class=codeBlockContent_QJqH><pre tabindex=0 class="prism-code language-css codeBlock_bY9V thin-scrollbar" style=color:#bfc7d5;background-color:#292d3e><code class=codeBlockLines_e6Vv><div class=token-line style=color:#bfc7d5><span class="token selector class" style="color:rgb(199, 146, 234)">.single-line</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">white-space</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> nowrap</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 呼應第 2 點 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">overflow</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> hidden</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"> </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/* 呼應第 1 點 */</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain">  </span><span class="token property">text-overflow</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> ellipsis</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span><br/></div><div class=token-line style=color:#bfc7d5><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><br/></div></code></pre></div></div>
+</li>
+<li class="">**注意：**不能與 <code>display: flex</code> 同時使用，如需 flex 排版請在內層多包一層元素。</li>
+<li class="">屬性介紹：<!-- -->
+<table><thead><tr><th>屬性<th>作用<tbody><tr><td><code>display: -webkit-box</code><td>啟用可限制行數的特殊盒子<tr><td><code>-webkit-box-orient: vertical</code><td>文字垂直排列<tr><td><code>-webkit-line-clamp: N</code><td>限制顯示 N 行<tr><td><code>overflow: hidden</code><td>藏起多餘內容<tr><td><code>text-overflow: ellipsis</code><td>截斷處顯示「...」</table>
+</li>
+</ul>
+</li>
+</ol></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class=col><b>標籤：</b><ul class="tags_jXut padding--none margin-left--sm"><li class=tag_QGVx><a rel=tag class="tag_zVej tagRegular_sFm0" href=/7lun-workspace/docs/tags/css>CSS</a><li class=tag_QGVx><a rel=tag class="tag_zVej tagRegular_sFm0" href=/7lun-workspace/docs/tags/知識點筆記>知識點筆記</a></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）.md" target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>編輯此頁</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label=文件選項卡><a class="pagination-nav__link pagination-nav__link--prev" href="/7lun-workspace/docs/html-css/2025 切版直播 - Tailwind 加碼講義"><div class=pagination-nav__sublabel>上一頁</div><div class=pagination-nav__label>2025 切版直播 - Tailwind 加碼講義</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/7lun-workspace/docs/html-css/Position 定位"><div class=pagination-nav__sublabel>下一頁</div><div class=pagination-nav__label>Position 定位</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#一前言 class="table-of-contents__link toc-highlight">一、前言</a><li><a href=#二技術拆解 class="table-of-contents__link toc-highlight">二、技術拆解</a><li><a href=#三名詞解釋 class="table-of-contents__link toc-highlight">三、名詞解釋</a></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class=footer__title></div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/7lun-workspace/about>關於7lun</a><li class=footer__item><a class=footer__link-item href=/7lun-workspace/portfolio>專案作品</a><li class=footer__item><a class=footer__link-item href=/7lun-workspace/docs/intro>語法手冊</a><li class=footer__item><a class=footer__link-item href=/7lun-workspace/blog>生存日誌</a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 7lun 的程式手冊.</div></div></div></footer></div></body>
