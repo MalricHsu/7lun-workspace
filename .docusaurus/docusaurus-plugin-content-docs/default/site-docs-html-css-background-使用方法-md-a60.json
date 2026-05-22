@@ -1,0 +1,43 @@
+{
+  "id": "html-css/Background 使用方法",
+  "title": "Background 使用方法",
+  "description": "一、背景語法",
+  "source": "@site/docs/html-css/Background 使用方法.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Background 使用方法",
+  "permalink": "/7lun-workspace/docs/html-css/Background 使用方法",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Background 使用方法.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Background 使用方法",
+    "sidebar_position": 2,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML基本介紹",
+    "permalink": "/7lun-workspace/docs/html-css/HTML基本介紹"
+  },
+  "next": {
+    "title": "Font 字體介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Font 字體介紹"
+  }
+}

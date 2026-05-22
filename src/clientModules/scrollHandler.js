@@ -6,10 +6,12 @@ if (ExecutionEnvironment.canUseDOM) {
   const updateNavbar = () => {
     const navbar = document.querySelector(".navbar");
     if (navbar) {
-      // 稍微增加一點滾動緩衝值 (例如 50)，避免在最頂端稍微動一下就一直跳動
-      if (window.scrollY > 30) {
+      // 實作遲滯現象 (Hysteresis) 以解決閃退無限迴圈
+      // 當往下捲動超過 100px 才縮小，回到頂端低於 10px 才放大
+      // 這樣即使縮小改變了網頁高度，也不會立刻觸發「低於閾值」的判斷
+      if (window.scrollY > 100) {
         navbar.classList.add("navbar--shrunk");
-      } else {
+      } else if (window.scrollY <= 10) {
         navbar.classList.remove("navbar--shrunk");
       }
     }

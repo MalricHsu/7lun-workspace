@@ -1,47 +1,117 @@
 ---
 sidebar_position: 1
+slug: /intro
+title: 語法手冊
+hide_title: true
 ---
 
-# Tutorial Intro
+<div style={{ padding: '2rem 0', borderBottom: '1px solid var(--ifm-color-emphasis-200)', marginBottom: '2rem' }}>
+  <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', color: 'var(--ifm-color-primary)', marginBottom: '1rem' }}>語法手冊</h1>
+  <p style={{ fontSize: '1.1rem', color: 'var(--ifm-color-emphasis-700)', maxWidth: '800px', lineHeight: '1.6' }}>
+    這裡記錄了我在前端開發過程中的技術積累與實戰心得。<br />
+    從基礎語法到框架應用，將那些踩過的坑與解法，淬鍊成隨時可查閱的知識庫。
+  </p>
+</div>
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<style>
+{`
+  .intro-card {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 8px;
+    background-color: var(--ifm-card-background-color);
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: all 0.3s ease;
+  }
+  .intro-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(111, 78, 55, 0.1);
+    border-color: var(--ifm-color-primary);
+  }
+  .intro-card h3 {
+    transition: color 0.3s ease;
+  }
+`}
+</style>
 
-## Getting Started
+<ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+  <li>
+    <a href="/7lun-workspace/docs/category/html--css" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-filetype-html"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>HTML / CSS</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>網頁基礎結構與樣式，包含切版技巧、RWD 響應式設計、Flexbox、Grid 佈局等實戰筆記。</p>
+      </div>
+    </a>
+  </li>
 
-Get started by **creating a new site**.
+  <li>
+    <a href="/7lun-workspace/docs/category/javascript" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-filetype-js"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>JavaScript</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>語法核心概念、DOM 操作、非同步處理 (Promise/async)、ES6+ 特性與常用陣列方法。</p>
+      </div>
+    </a>
+  </li>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+  <li>
+    <a href="/7lun-workspace/docs/category/react" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-filetype-jsx"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>React</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>元件生命週期、Hooks 原理與應用、狀態管理 (Redux/Context)、React Router 路由設定。</p>
+      </div>
+    </a>
+  </li>
 
-### What you'll need
+  <li>
+    <a href="/7lun-workspace/docs/category/vue" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-layers"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>Vue.js</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>自學 Vue 3 的心路歷程，包含 Composition API、響應式原理、生命週期與元件間的溝通。</p>
+      </div>
+    </a>
+  </li>
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+  <li>
+    <a href="/7lun-workspace/docs/category/nodejs" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-server"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>Node.js</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>後端基礎概念、Express 框架實作、RESTful API 設計、CORS 處理與資料庫串接。</p>
+      </div>
+    </a>
+  </li>
 
-## Generate a new site
+  <li>
+    <a href="/7lun-workspace/docs/category/git" className="intro-card">
+      <div style={{ fontSize: '1.75rem', color: 'var(--ifm-color-primary)', lineHeight: '1' }}>
+        <i className="bi bi-git"></i>
+      </div>
+      <div>
+        <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.25rem' }}>Git</h3>
+        <p style={{ margin: 0, color: 'var(--ifm-color-emphasis-700)', lineHeight: '1.6' }}>版本控制核心指令、分支合併策略、衝突解決、GitHub 協作流程與版本回退技巧。</p>
+      </div>
+    </a>
+  </li>
+</ul>
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<div style={{ textAlign: 'center', marginTop: '2rem', padding: '1rem', color: 'var(--ifm-color-emphasis-500)', fontSize: '0.9rem', letterSpacing: '1px' }}>
+  — 持續更新中，每學到新東西就會在這裡留下足跡 —
+</div>

@@ -7,6 +7,10 @@ import authorPic from "../../static/img/author.png";
 import lifewithyou from "../../static/img/lifewithyou.png";
 import yestep from "../../static/img/yestep.png";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 // --- 介紹區 (About Me) ---
 function AboutMe() {
@@ -21,7 +25,7 @@ function AboutMe() {
             <p className={styles.description}>
               我擅長把抽象的需求，拆解成清晰且容易理解的結構，
               讓程式碼不只是能運作，也能被人讀懂與維護。
-              在這樣的開發思維下，目前專注於 <strong>React 生態系</strong> 與 <strong>Vite 開發流程</strong>。
+              在這樣的開發思維下，目前主力於 <strong>React 生態系</strong> 與 <strong>Vite 開發流程</strong>，同時也正在探索自學 <strong>Vue 框架</strong>。
               <br />
               <br />
               我用「語法手冊」提煉語法重點，用「生存日誌」記錄每一次卡關與突破。
@@ -227,6 +231,124 @@ function Portfolio() {
   );
 }
 
+// --- 評價區 (Testimonials) ---
+function Testimonials() {
+  const reviews = [
+    {
+      name: "伴你在日常／YeStep 專案協作夥伴",
+      role: "組員 - 登登登",
+      text: "7lun 是個非常積極且熱愛分享交流的夥伴，善於規劃、統合，在專題合作中多虧有他，團隊才有更高的凝聚力和向心力。"
+    },
+    {
+      name: "伴你在日常／YeStep 專案協作夥伴",
+      role: "組員 - 蛋白",
+      text: "七倫是個充滿熱情且積極的組員，可以感受到他善於組織與推動專案進度的能力，常常在專案有進展時就會開始思考並規劃下一個階段。有時候他對自己要求較高，甚至會忙到影響身體狀況，作為一起合作的組員，希望他未來在持續成長的同時，能夠更輕鬆地享受寫程式的過程！不要再熬夜熬這麼兇了喔！"
+    },
+    {
+      name: "伴你在日常／YeStep 專案協作夥伴",
+      role: "組員 - Katie",
+      text: "在專題合作的過程中，七倫是一位非常積極且認真的夥伴。他在專案中常常會主動關注進度，也會提前思考整體架構，例如部署或環境設定等技術層面的規劃，並樂於和大家分享自己研究到的內容。在團隊合作上，他擅長組織與統整，也常主動推動討論與專案進度，讓團隊在合作過程中能保持良好的節奏與凝聚力。在討論事情時節奏偏效率導向，也關心組員們的狀態。同時他對自己的要求也相當高，對專題投入許多心力。"
+    },
+    {
+      name: "YeStep 專案協作夥伴",
+      role: "組員 - うさぎ兔",
+      text: "和他合作的時候，可以感受到他對學習非常認真，也會主動追蹤專案進度。在技術面上常常會提前思考整體架構，例如部署或環境設定，也很樂於分享自己研究到的東西。在討論事情時，他的節奏通常比較直接、效率導向，會希望事情能快速推進。相處熟悉之後其實很好聊天，也常能讓團隊討論的氣氛變得輕鬆。"
+    },
+  ];
+
+  return (
+    <section style={{ backgroundColor: "transparent", padding: "5rem 0", overflow: "hidden" }}>
+      <style>
+        {`
+          .testimonial-swiper {
+            padding-bottom: 3rem !important;
+          }
+          .testimonial-swiper .swiper-wrapper {
+            transition-timing-function: linear !important;
+            align-items: stretch;
+          }
+          .swiper-pagination-bullet {
+            background-color: var(--ifm-color-primary) !important;
+            opacity: 0.2;
+          }
+          .swiper-pagination-bullet-active {
+            opacity: 1;
+            width: 24px;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+          }
+          .review-card-inner {
+            background-color: #fff;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(111, 78, 55, 0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            cursor: grab;
+          }
+          .review-card-text {
+            font-size: 1.05rem;
+            color: var(--ifm-color-emphasis-800);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            font-style: italic;
+            text-align: justify;
+          }
+          @media (max-width: 768px) {
+            .review-card-inner {
+              padding: 1.8rem 1.5rem;
+            }
+            .review-card-text {
+              font-size: 0.95rem;
+              line-height: 1.6;
+              margin-bottom: 1.5rem;
+            }
+          }
+        `}
+      </style>
+      <div className="container">
+        <h2 className={styles.sectionTitle} style={{ textAlign: "center", marginBottom: "3rem" }}>專案合作回饋</h2>
+        
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={20}
+          slidesPerView={1}
+          breakpoints={{
+            768: { slidesPerView: 2, spaceBetween: 30 },
+            1024: { slidesPerView: 3, spaceBetween: 30 },
+          }}
+          speed={8000}
+          autoplay={{ delay: 0, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          loop={true}
+          className="testimonial-swiper"
+        >
+          {reviews.map((review, idx) => (
+            <SwiperSlide key={idx} style={{ height: "auto" }}>
+              <div className="review-card-inner">
+                <div>
+                  <div style={{ color: "var(--ifm-color-primary)", fontSize: "2rem", marginBottom: "0.5rem", opacity: 0.2, lineHeight: 1 }}>
+                    <i className="bi bi-quote"></i>
+                  </div>
+                  <p className="review-card-text">
+                    "{review.text}"
+                  </p>
+                </div>
+                <div style={{ borderTop: "1px solid rgba(111,78,55,0.1)", paddingTop: "1rem" }}>
+                  <h4 style={{ margin: "0 0 0.25rem 0", color: "var(--ifm-color-primary)", fontSize: "1.1rem", fontWeight: "bold" }}>{review.name}</h4>
+                  <span style={{ fontSize: "0.9rem", color: "var(--ifm-color-emphasis-600)" }}>{review.role}</span>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -235,6 +357,7 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Portfolio />
+        <Testimonials />
       </main>
     </Layout>
   );

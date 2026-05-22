@@ -1,0 +1,43 @@
+{
+  "id": "html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+  "title": "響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+  "description": "一、前言",
+  "source": "@site/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+  "permalink": "/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "title": "響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+    "sidebar_position": 19,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2025 切版直播 - Tailwind 加碼講義",
+    "permalink": "/7lun-workspace/docs/html-css/2025 切版直播 - Tailwind 加碼講義"
+  },
+  "next": {
+    "title": "Position 定位",
+    "permalink": "/7lun-workspace/docs/html-css/Position 定位"
+  }
+}

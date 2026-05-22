@@ -1,0 +1,47 @@
+{
+  "permalink": "/7lun-workspace/blog/yestep-project",
+  "source": "@site/blog/yestep-project.md",
+  "title": "YeStep 每一步，找回生活的呼吸",
+  "description": "前言",
+  "date": "2026-05-22T15:15:59.941Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "專案作品",
+      "permalink": "/7lun-workspace/blog/tags/project",
+      "description": "從零到一的專案開發紀錄"
+    },
+    {
+      "inline": true,
+      "label": "React",
+      "permalink": "/7lun-workspace/blog/tags/react"
+    }
+  ],
+  "readingTime": 12.34,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "7Lun",
+      "title": "Junior Front-End Developer",
+      "imageURL": "/7lun-workspace/img/author.png",
+      "key": "7lun",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "yestep-project",
+    "title": "YeStep 每一步，找回生活的呼吸",
+    "authors": [
+      "7lun"
+    ],
+    "tags": [
+      "project",
+      "React"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "伴你在日常 — 長照輔具電商平台",
+    "permalink": "/7lun-workspace/blog/withyourlife-project"
+  }
+}

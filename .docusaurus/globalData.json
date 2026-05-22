@@ -11,53 +11,163 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "git/getting-started",
+              "path": "/7lun-workspace/docs/git/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/2025 切版直播 - Tailwind 加碼講義",
+              "path": "/7lun-workspace/docs/html-css/2025 切版直播 - Tailwind 加碼講義",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/Background 使用方法",
+              "path": "/7lun-workspace/docs/html-css/Background 使用方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/Bootstrap 5 文件介紹",
+              "path": "/7lun-workspace/docs/html-css/Bootstrap 5 文件介紹",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/Font 字體介紹",
+              "path": "/7lun-workspace/docs/html-css/Font 字體介紹",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/HTML基本介紹",
+              "path": "/7lun-workspace/docs/html-css/HTML基本介紹",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/Position 定位",
+              "path": "/7lun-workspace/docs/html-css/Position 定位",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/RWD響應式設計-斷點相關資訊",
+              "path": "/7lun-workspace/docs/html-css/RWD響應式設計-斷點相關資訊",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/Sass 介紹",
+              "path": "/7lun-workspace/docs/html-css/Sass 介紹",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/格線系統",
+              "path": "/7lun-workspace/docs/html-css/格線系統",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第一堂 1 px 也不差的版型控制術",
+              "path": "/7lun-workspace/docs/html-css/第一堂 1 px 也不差的版型控制術",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第七堂 網頁動態",
+              "path": "/7lun-workspace/docs/html-css/第七堂 網頁動態",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第三堂 RWD 響應式網頁",
+              "path": "/7lun-workspace/docs/html-css/第三堂 RWD 響應式網頁",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第二堂 Flex 網頁排版術",
+              "path": "/7lun-workspace/docs/html-css/第二堂 Flex 網頁排版術",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第五堂 表單設計",
+              "path": "/7lun-workspace/docs/html-css/第五堂 表單設計",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第八堂 實戰總複習",
+              "path": "/7lun-workspace/docs/html-css/第八堂 實戰總複習",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第六堂 導入網頁規範設計流程",
+              "path": "/7lun-workspace/docs/html-css/第六堂 導入網頁規範設計流程",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/第四堂 多頁式網頁",
+              "path": "/7lun-workspace/docs/html-css/第四堂 多頁式網頁",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/網站LOGO 圖片取代文字方法",
+              "path": "/7lun-workspace/docs/html-css/網站LOGO 圖片取代文字方法",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/複合選擇器 介紹",
+              "path": "/7lun-workspace/docs/html-css/複合選擇器 介紹",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+              "path": "/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/7lun-workspace/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/7lun-workspace/docs/tutorial-basics/congratulations",
+              "id": "javascript/getting-started",
+              "path": "/7lun-workspace/docs/javascript/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/7lun-workspace/docs/tutorial-basics/create-a-blog-post",
+              "id": "nodejs/getting-started",
+              "path": "/7lun-workspace/docs/nodejs/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/7lun-workspace/docs/tutorial-basics/create-a-document",
+              "id": "react/getting-started",
+              "path": "/7lun-workspace/docs/react/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/7lun-workspace/docs/tutorial-basics/create-a-page",
+              "id": "vue/getting-started",
+              "path": "/7lun-workspace/docs/vue/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/7lun-workspace/docs/tutorial-basics/deploy-your-site",
+              "id": "/category/html--css",
+              "path": "/7lun-workspace/docs/category/html--css",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/7lun-workspace/docs/tutorial-extras/manage-docs-versions",
+              "id": "/category/javascript",
+              "path": "/7lun-workspace/docs/category/javascript",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/7lun-workspace/docs/tutorial-extras/translate-your-site",
+              "id": "/category/react",
+              "path": "/7lun-workspace/docs/category/react",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/7lun-workspace/docs/category/tutorial---basics",
+              "id": "/category/nodejs",
+              "path": "/7lun-workspace/docs/category/nodejs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/7lun-workspace/docs/category/tutorial---extras",
+              "id": "/category/vuejs",
+              "path": "/7lun-workspace/docs/category/vuejs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/git",
+              "path": "/7lun-workspace/docs/category/git",
               "sidebar": "tutorialSidebar"
             }
           ],

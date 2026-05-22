@@ -366,3 +366,162 @@
     font-size: 2.5rem;
   }
 }
+
+/* === 目錄總覽頁面 === */
+
+.directorySection {
+  margin-bottom: 5rem;
+}
+
+.directorySectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 2px solid rgba(111, 78, 55, 0.1);
+}
+
+.directorySectionLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.directorySectionIcon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.directorySectionTitle {
+  font-size: 1.8rem;
+  color: #6f4e37 !important;
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+}
+
+.directorySectionSubtitle {
+  font-size: 0.95rem;
+  color: #a88b75;
+  margin: 0;
+}
+
+.directorySeeAll {
+  font-family: "Noto Sans TC", sans-serif !important;
+  color: #6f4e37 !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.directorySeeAll:hover {
+  background: rgba(111, 78, 55, 0.06);
+  color: #5d4037 !important;
+  transform: translateX(4px);
+}
+
+/* --- 筆記列表卡片 --- */
+.directoryNoteList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.directoryNoteCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.8rem 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 20px rgba(111, 78, 55, 0.04);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.directoryNoteCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 35px rgba(111, 78, 55, 0.1);
+  border-color: #e1cbad;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.directoryNoteInfo {
+  flex: 1;
+}
+
+.directoryNoteTitle {
+  font-size: 1.25rem;
+  color: #5d4037;
+  margin: 0 0 0.5rem 0;
+}
+
+.directoryNoteDesc {
+  color: #795548;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 0.8rem 0;
+}
+
+.directoryNoteDate {
+  font-family: "Noto Sans TC", sans-serif !important;
+  color: #a88b75;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  margin-left: 2rem;
+  padding-top: 0.3rem;
+}
+
+/* --- 空狀態 --- */
+.directoryEmptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 2px dashed rgba(111, 78, 55, 0.15);
+}
+
+.directoryEmptyIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.directoryEmptyText {
+  font-size: 1.1rem;
+  color: #a88b75;
+  margin: 0;
+}
+
+/* --- 目錄頁 RWD --- */
+@media (max-width: 768px) {
+  .directorySectionHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .directorySeeAll {
+    padding-left: 0;
+  }
+
+  .directoryNoteCard {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .directoryNoteDate {
+    margin-left: 0;
+  }
+}

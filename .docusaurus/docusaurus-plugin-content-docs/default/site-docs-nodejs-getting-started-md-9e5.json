@@ -1,0 +1,28 @@
+{
+  "id": "nodejs/getting-started",
+  "title": "開始學習 Node.js",
+  "description": "這個分類會放後端基礎、Express、API 設計等學習筆記。",
+  "source": "@site/docs/nodejs/getting-started.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/getting-started",
+  "permalink": "/7lun-workspace/docs/nodejs/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/nodejs/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "開始學習 Node.js"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Node.js",
+    "permalink": "/7lun-workspace/docs/category/nodejs"
+  },
+  "next": {
+    "title": "Vue.js",
+    "permalink": "/7lun-workspace/docs/category/vuejs"
+  }
+}

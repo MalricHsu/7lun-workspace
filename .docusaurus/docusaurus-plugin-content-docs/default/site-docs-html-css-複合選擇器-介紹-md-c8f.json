@@ -1,0 +1,43 @@
+{
+  "id": "html-css/複合選擇器 介紹",
+  "title": "複合選擇器介紹",
+  "description": "一、類別選擇器 vs 複合選擇器",
+  "source": "@site/docs/html-css/複合選擇器 介紹.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/複合選擇器 介紹",
+  "permalink": "/7lun-workspace/docs/html-css/複合選擇器 介紹",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/複合選擇器 介紹.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "複合選擇器介紹",
+    "sidebar_position": 7,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sass 介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Sass 介紹"
+  },
+  "next": {
+    "title": "Bootstrap 5 文件介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Bootstrap 5 文件介紹"
+  }
+}

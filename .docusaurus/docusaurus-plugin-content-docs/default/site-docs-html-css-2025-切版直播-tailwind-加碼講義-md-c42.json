@@ -1,0 +1,43 @@
+{
+  "id": "html-css/2025 切版直播 - Tailwind 加碼講義",
+  "title": "2025 切版直播 - Tailwind 加碼講義",
+  "description": "課程講義//casper-wang.notion.site/2025-Tailwind-25e2a065e9db80678780c2bfcb668305",
+  "source": "@site/docs/html-css/2025 切版直播 - Tailwind 加碼講義.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/2025 切版直播 - Tailwind 加碼講義",
+  "permalink": "/7lun-workspace/docs/html-css/2025 切版直播 - Tailwind 加碼講義",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/2025 切版直播 - Tailwind 加碼講義.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "課程筆記",
+      "permalink": "/7lun-workspace/docs/tags/課程筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "title": "2025 切版直播 - Tailwind 加碼講義",
+    "sidebar_position": 18,
+    "tags": [
+      "CSS",
+      "課程筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第八堂 實戰總複習",
+    "permalink": "/7lun-workspace/docs/html-css/第八堂 實戰總複習"
+  },
+  "next": {
+    "title": "響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+    "permalink": "/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）"
+  }
+}

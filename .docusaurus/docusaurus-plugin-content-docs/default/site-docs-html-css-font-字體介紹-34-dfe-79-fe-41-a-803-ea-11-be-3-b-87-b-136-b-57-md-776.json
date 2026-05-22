@@ -1,0 +1,24 @@
+{
+  "id": "html-css/Font 字體介紹 34dfe79fe41a803ea11be3b87b136b57",
+  "title": "Font 字體介紹",
+  "description": "程式語言: CSS",
+  "source": "@site/docs/html-css/Font 字體介紹 34dfe79fe41a803ea11be3b87b136b57.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Font 字體介紹 34dfe79fe41a803ea11be3b87b136b57",
+  "permalink": "/7lun-workspace/docs/html-css/Font 字體介紹 34dfe79fe41a803ea11be3b87b136b57",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Font 字體介紹 34dfe79fe41a803ea11be3b87b136b57.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bootstrap 5 文件介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Bootstrap 5 文件介紹"
+  },
+  "next": {
+    "title": "Position 定位",
+    "permalink": "/7lun-workspace/docs/html-css/Position 定位"
+  }
+}

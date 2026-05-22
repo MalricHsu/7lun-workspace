@@ -1,0 +1,43 @@
+{
+  "id": "html-css/網站LOGO 圖片取代文字方法",
+  "title": "網站LOGO圖片取代文字方法",
+  "description": "一、前言：",
+  "source": "@site/docs/html-css/網站LOGO 圖片取代文字方法.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/網站LOGO 圖片取代文字方法",
+  "permalink": "/7lun-workspace/docs/html-css/網站LOGO 圖片取代文字方法",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/網站LOGO 圖片取代文字方法.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "網站LOGO圖片取代文字方法",
+    "sidebar_position": 4,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Font 字體介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Font 字體介紹"
+  },
+  "next": {
+    "title": "RWD響應式設計-斷點相關資訊",
+    "permalink": "/7lun-workspace/docs/html-css/RWD響應式設計-斷點相關資訊"
+  }
+}

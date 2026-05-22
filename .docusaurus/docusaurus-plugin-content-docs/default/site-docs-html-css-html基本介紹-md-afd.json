@@ -1,0 +1,43 @@
+{
+  "id": "html-css/HTML基本介紹",
+  "title": "HTML基本介紹",
+  "description": "一、HTML基本介紹",
+  "source": "@site/docs/html-css/HTML基本介紹.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/HTML基本介紹",
+  "permalink": "/7lun-workspace/docs/html-css/HTML基本介紹",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/HTML基本介紹.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "HTML",
+      "permalink": "/7lun-workspace/docs/tags/html"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "HTML基本介紹",
+    "sidebar_position": 1,
+    "tags": [
+      "HTML",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML / CSS",
+    "permalink": "/7lun-workspace/docs/category/html--css"
+  },
+  "next": {
+    "title": "Background 使用方法",
+    "permalink": "/7lun-workspace/docs/html-css/Background 使用方法"
+  }
+}

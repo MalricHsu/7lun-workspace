@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+project:
+  label: 專案作品
+  permalink: /project
+  description: 從零到一的專案開發紀錄
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+note:
+  label: 學習歷程
+  permalink: /note
+  description: 學習過程中的技術筆記與心得
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+切版網站:
+  label: 切版網站
+  permalink: /layout
+  description: 前端靜態切版與 UI 實作

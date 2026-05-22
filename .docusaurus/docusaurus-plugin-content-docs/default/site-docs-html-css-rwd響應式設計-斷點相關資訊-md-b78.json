@@ -1,0 +1,49 @@
+{
+  "id": "html-css/RWD響應式設計-斷點相關資訊",
+  "title": "RWD響應式設計-斷點相關資訊",
+  "description": "一、Mobile-first vs Desktop-first",
+  "source": "@site/docs/html-css/RWD響應式設計-斷點相關資訊.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/RWD響應式設計-斷點相關資訊",
+  "permalink": "/7lun-workspace/docs/html-css/RWD響應式設計-斷點相關資訊",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/RWD響應式設計-斷點相關資訊.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "HTML",
+      "permalink": "/7lun-workspace/docs/tags/html"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "RWD響應式設計-斷點相關資訊",
+    "sidebar_position": 5,
+    "tags": [
+      "CSS",
+      "HTML",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "網站LOGO圖片取代文字方法",
+    "permalink": "/7lun-workspace/docs/html-css/網站LOGO 圖片取代文字方法"
+  },
+  "next": {
+    "title": "Sass 介紹",
+    "permalink": "/7lun-workspace/docs/html-css/Sass 介紹"
+  }
+}

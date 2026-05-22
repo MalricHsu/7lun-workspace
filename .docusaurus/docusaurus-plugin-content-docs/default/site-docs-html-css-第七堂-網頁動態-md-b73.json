@@ -1,0 +1,49 @@
+{
+  "id": "html-css/第七堂 網頁動態",
+  "title": "第七堂 網頁動態",
+  "description": "課程講義//hackmd.io/PcPpCppqRMC50_oqzcDIUw",
+  "source": "@site/docs/html-css/第七堂 網頁動態.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/第七堂 網頁動態",
+  "permalink": "/7lun-workspace/docs/html-css/第七堂 網頁動態",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/第七堂 網頁動態.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "HTML",
+      "permalink": "/7lun-workspace/docs/tags/html"
+    },
+    {
+      "inline": true,
+      "label": "課程筆記",
+      "permalink": "/7lun-workspace/docs/tags/課程筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "title": "第七堂 網頁動態",
+    "sidebar_position": 16,
+    "tags": [
+      "CSS",
+      "HTML",
+      "課程筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第六堂 導入網頁規範設計流程",
+    "permalink": "/7lun-workspace/docs/html-css/第六堂 導入網頁規範設計流程"
+  },
+  "next": {
+    "title": "第八堂 實戰總複習",
+    "permalink": "/7lun-workspace/docs/html-css/第八堂 實戰總複習"
+  }
+}

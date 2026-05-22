@@ -1,0 +1,43 @@
+{
+  "id": "html-css/Position 定位",
+  "title": "Position 定位",
+  "description": "一、五種定位模式總覽",
+  "source": "@site/docs/html-css/Position 定位.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Position 定位",
+  "permalink": "/7lun-workspace/docs/html-css/Position 定位",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Position 定位.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "title": "Position 定位",
+    "sidebar_position": 20,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "響應式導覽列轉換（直立 ⇄ 橫向滑動）",
+    "permalink": "/7lun-workspace/docs/html-css/響應式導覽列轉換（直立 ⇄ 橫向滑動）"
+  },
+  "next": {
+    "title": "JavaScript",
+    "permalink": "/7lun-workspace/docs/category/javascript"
+  }
+}

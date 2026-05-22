@@ -1,0 +1,49 @@
+{
+  "id": "html-css/第一堂 1 px 也不差的版型控制術",
+  "title": "第一堂 1 px 也不差的版型控制術",
+  "description": "- 課程講義",
+  "source": "@site/docs/html-css/第一堂 1 px 也不差的版型控制術.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/第一堂 1 px 也不差的版型控制術",
+  "permalink": "/7lun-workspace/docs/html-css/第一堂 1 px 也不差的版型控制術",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/第一堂 1 px 也不差的版型控制術.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "HTML",
+      "permalink": "/7lun-workspace/docs/tags/html"
+    },
+    {
+      "inline": true,
+      "label": "課程筆記",
+      "permalink": "/7lun-workspace/docs/tags/課程筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "第一堂 1 px 也不差的版型控制術",
+    "sidebar_position": 10,
+    "tags": [
+      "CSS",
+      "HTML",
+      "課程筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "格線系統",
+    "permalink": "/7lun-workspace/docs/html-css/格線系統"
+  },
+  "next": {
+    "title": "第二堂 Flex 網頁排版術",
+    "permalink": "/7lun-workspace/docs/html-css/第二堂 Flex 網頁排版術"
+  }
+}

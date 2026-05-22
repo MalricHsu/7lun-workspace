@@ -12,7 +12,7 @@ export default {
     "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
   ],
   "clientModules": [
-    "/Users/h.chinglun/Desktop/7lun-website/src/clientModules/scrollHandler.js"
+    "/Users/h.chinglun/Desktop/專案練習/7lun-website/src/clientModules/scrollHandler.js"
   ],
   "future": {
     "v4": {

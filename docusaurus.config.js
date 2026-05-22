@@ -26,6 +26,7 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "warn",
 
   i18n: {
     defaultLocale: "zh-Hant",

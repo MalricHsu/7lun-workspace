@@ -1,0 +1,28 @@
+{
+  "id": "react/getting-started",
+  "title": "開始學習 React",
+  "description": "這個分類會放 React 元件設計、Hooks、狀態管理等學習筆記。",
+  "source": "@site/docs/react/getting-started.md",
+  "sourceDirName": "react",
+  "slug": "/react/getting-started",
+  "permalink": "/7lun-workspace/docs/react/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/react/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "開始學習 React"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React",
+    "permalink": "/7lun-workspace/docs/category/react"
+  },
+  "next": {
+    "title": "Node.js",
+    "permalink": "/7lun-workspace/docs/category/nodejs"
+  }
+}

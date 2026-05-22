@@ -1,0 +1,49 @@
+{
+  "id": "html-css/第四堂 多頁式網頁",
+  "title": "第四堂 多頁式網頁",
+  "description": "- 課程講義",
+  "source": "@site/docs/html-css/第四堂 多頁式網頁.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/第四堂 多頁式網頁",
+  "permalink": "/7lun-workspace/docs/html-css/第四堂 多頁式網頁",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/第四堂 多頁式網頁.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "HTML",
+      "permalink": "/7lun-workspace/docs/tags/html"
+    },
+    {
+      "inline": true,
+      "label": "課程筆記",
+      "permalink": "/7lun-workspace/docs/tags/課程筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "title": "第四堂 多頁式網頁",
+    "sidebar_position": 13,
+    "tags": [
+      "CSS",
+      "HTML",
+      "課程筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "第三堂 RWD 響應式網頁",
+    "permalink": "/7lun-workspace/docs/html-css/第三堂 RWD 響應式網頁"
+  },
+  "next": {
+    "title": "第五堂 表單設計",
+    "permalink": "/7lun-workspace/docs/html-css/第五堂 表單設計"
+  }
+}

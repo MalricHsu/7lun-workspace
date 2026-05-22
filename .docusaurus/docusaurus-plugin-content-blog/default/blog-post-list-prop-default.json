@@ -2,28 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/7lun-workspace/blog/welcome",
+      "title": "YeStep 每一步，找回生活的呼吸",
+      "permalink": "/7lun-workspace/blog/yestep-project",
       "unlisted": false,
-      "date": "2021-08-26T00:00:00.000Z"
+      "date": "2026-05-22T15:15:59.941Z"
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/7lun-workspace/blog/mdx-blog-post",
+      "title": "伴你在日常 — 長照輔具電商平台",
+      "permalink": "/7lun-workspace/blog/withyourlife-project",
       "unlisted": false,
-      "date": "2021-08-01T00:00:00.000Z"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/7lun-workspace/blog/long-blog-post",
-      "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/7lun-workspace/blog/first-blog-post",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
+      "date": "2026-05-22T14:51:34.289Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "語法手冊",
+  "description": "語法手冊",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -13,11 +13,14 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "slug": "/intro",
+    "title": "語法手冊",
+    "hide_title": true
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/7lun-workspace/docs/category/tutorial---basics"
+    "title": "HTML / CSS",
+    "permalink": "/7lun-workspace/docs/category/html--css"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "id": "vue/getting-started",
+  "title": "Vue 筆記前言",
+  "description": "程式語言*: Vue.js",
+  "source": "@site/docs/vue/getting-started.md",
+  "sourceDirName": "vue",
+  "slug": "/vue/getting-started",
+  "permalink": "/7lun-workspace/docs/vue/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/vue/getting-started.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Vue",
+      "permalink": "/7lun-workspace/docs/tags/vue"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Vue 筆記前言",
+    "sidebar_position": 1,
+    "tags": [
+      "Vue"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vue.js",
+    "permalink": "/7lun-workspace/docs/category/vuejs"
+  },
+  "next": {
+    "title": "Git",
+    "permalink": "/7lun-workspace/docs/category/git"
+  }
+}

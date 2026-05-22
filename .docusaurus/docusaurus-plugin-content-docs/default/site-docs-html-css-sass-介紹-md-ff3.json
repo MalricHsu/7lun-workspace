@@ -1,0 +1,43 @@
+{
+  "id": "html-css/Sass 介紹",
+  "title": "Sass 介紹",
+  "description": "一、Sass定義",
+  "source": "@site/docs/html-css/Sass 介紹.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Sass 介紹",
+  "permalink": "/7lun-workspace/docs/html-css/Sass 介紹",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Sass 介紹.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Sass 介紹",
+    "sidebar_position": 6,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RWD響應式設計-斷點相關資訊",
+    "permalink": "/7lun-workspace/docs/html-css/RWD響應式設計-斷點相關資訊"
+  },
+  "next": {
+    "title": "複合選擇器介紹",
+    "permalink": "/7lun-workspace/docs/html-css/複合選擇器 介紹"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "git/getting-started",
+  "title": "開始學習 Git",
+  "description": "這個分類會放版本控制指令、分支策略、協作流程等學習筆記。",
+  "source": "@site/docs/git/getting-started.md",
+  "sourceDirName": "git",
+  "slug": "/git/getting-started",
+  "permalink": "/7lun-workspace/docs/git/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/git/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "開始學習 Git"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/7lun-workspace/docs/category/git"
+  }
+}

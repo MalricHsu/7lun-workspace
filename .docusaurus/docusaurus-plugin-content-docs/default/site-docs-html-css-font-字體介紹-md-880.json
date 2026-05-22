@@ -1,0 +1,43 @@
+{
+  "id": "html-css/Font 字體介紹",
+  "title": "Font 字體介紹",
+  "description": "一、系統字體介紹",
+  "source": "@site/docs/html-css/Font 字體介紹.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Font 字體介紹",
+  "permalink": "/7lun-workspace/docs/html-css/Font 字體介紹",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Font 字體介紹.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Font 字體介紹",
+    "sidebar_position": 3,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Background 使用方法",
+    "permalink": "/7lun-workspace/docs/html-css/Background 使用方法"
+  },
+  "next": {
+    "title": "網站LOGO圖片取代文字方法",
+    "permalink": "/7lun-workspace/docs/html-css/網站LOGO 圖片取代文字方法"
+  }
+}

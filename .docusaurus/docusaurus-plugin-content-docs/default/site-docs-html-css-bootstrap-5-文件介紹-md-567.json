@@ -1,0 +1,43 @@
+{
+  "id": "html-css/Bootstrap 5 文件介紹",
+  "title": "Bootstrap 5 文件介紹",
+  "description": "一、CSS Variables",
+  "source": "@site/docs/html-css/Bootstrap 5 文件介紹.md",
+  "sourceDirName": "html-css",
+  "slug": "/html-css/Bootstrap 5 文件介紹",
+  "permalink": "/7lun-workspace/docs/html-css/Bootstrap 5 文件介紹",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/docs/html-css/Bootstrap 5 文件介紹.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "CSS",
+      "permalink": "/7lun-workspace/docs/tags/css"
+    },
+    {
+      "inline": true,
+      "label": "知識點筆記",
+      "permalink": "/7lun-workspace/docs/tags/知識點筆記"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Bootstrap 5 文件介紹",
+    "sidebar_position": 8,
+    "tags": [
+      "CSS",
+      "知識點筆記"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "複合選擇器介紹",
+    "permalink": "/7lun-workspace/docs/html-css/複合選擇器 介紹"
+  },
+  "next": {
+    "title": "格線系統",
+    "permalink": "/7lun-workspace/docs/html-css/格線系統"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/7lun-workspace/blog/withyourlife-project",
+  "source": "@site/blog/withyourlife-project.md",
+  "title": "伴你在日常 — 長照輔具電商平台",
+  "description": "前言",
+  "date": "2026-05-22T14:51:34.289Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "專案作品",
+      "permalink": "/7lun-workspace/blog/tags/project",
+      "description": "從零到一的專案開發紀錄"
+    },
+    {
+      "inline": false,
+      "label": "切版網站",
+      "permalink": "/7lun-workspace/blog/tags/layout",
+      "description": "前端靜態切版與 UI 實作"
+    }
+  ],
+  "readingTime": 8.41,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "7Lun",
+      "title": "Junior Front-End Developer",
+      "imageURL": "/7lun-workspace/img/author.png",
+      "key": "7lun",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "withyourlife-project",
+    "title": "伴你在日常 — 長照輔具電商平台",
+    "authors": [
+      "7lun"
+    ],
+    "tags": [
+      "project",
+      "切版網站"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "YeStep 每一步，找回生活的呼吸",
+    "permalink": "/7lun-workspace/blog/yestep-project"
+  }
+}
