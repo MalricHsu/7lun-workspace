@@ -146,8 +146,16 @@
   flex-direction: column;
 }
 
-.coreCard {
+.baseCard {
+  flex: 1 1 calc(33.333% - 25px);
+}
+
+.frameworkCard {
   flex: 1 1 calc(50% - 25px);
+}
+
+.frameworkRow {
+  margin-top: 25px;
 }
 
 .skillCard:hover {
@@ -331,7 +339,9 @@
     margin: 0 auto;
   }
 
-  .skillCard {
+  .skillCard,
+  .baseCard,
+  .frameworkCard {
     flex: 0 1 calc(50% - 20px);
   }
 
@@ -357,7 +367,9 @@
     margin: 0 auto;
   }
 
-  .skillCard {
+  .skillCard,
+  .baseCard,
+  .frameworkCard {
     flex: 1 1 100%;
   }
 

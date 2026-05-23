@@ -55,7 +55,7 @@ function AboutMe() {
 // --- 技能區 (Skills) ---
 function Skills() {
   const skills = {
-    core: [
+    base: [
       {
         title: "HTML",
         desc: "熟練 HTML5 語意化結構，建立清晰且具邏輯的頁面骨架。",
@@ -68,9 +68,16 @@ function Skills() {
         title: "JavaScript",
         desc: "熟悉 ES6+ 語法，能處理複雜資料邏輯，提升程式碼可讀性與維護性。",
       },
+    ],
+
+    frameworks: [
       {
         title: "React",
         desc: "具備 SPA 架構開發經驗，透過組件化思維建立可重用 UI 模組；熟悉 React Hook Form 表單驗證與 Redux Toolkit 狀態管理，維持複雜 UI 的資料流清晰與可預測性。",
+      },
+      {
+        title: "Vue",
+        desc: "熟悉 Composition API 與 setup 語法，掌握 ref / reactive 響應式資料、computed / watch、props / emit 等核心機制；目前正實作個人專案，並同步學習 Pinia 狀態管理。",
       },
     ],
 
@@ -114,8 +121,16 @@ function Skills() {
         <div className={styles.skillCategory}>
           <h3 className={styles.categoryTitle}>Core <span>核心技術</span></h3>
           <div className={styles.skillFlexContainer}>
-            {skills.core.map((skill, idx) => (
-              <div key={`core-${idx}`} className={`${styles.skillCard} ${styles.coreCard}`}>
+            {skills.base.map((skill, idx) => (
+              <div key={`base-${idx}`} className={`${styles.skillCard} ${styles.baseCard}`}>
+                <h4 className={styles.skillName}>{skill.title}</h4>
+                <p className={styles.skillDesc}>{skill.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div className={`${styles.skillFlexContainer} ${styles.frameworkRow}`}>
+            {skills.frameworks.map((skill, idx) => (
+              <div key={`fw-${idx}`} className={`${styles.skillCard} ${styles.frameworkCard}`}>
                 <h4 className={styles.skillName}>{skill.title}</h4>
                 <p className={styles.skillDesc}>{skill.desc}</p>
               </div>

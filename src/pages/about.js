@@ -88,7 +88,6 @@ const timelineData = [
 export default function About() {
   return (
     <Layout title="關於我" description="了解更多關於 7Lun 的故事">
-      {/* 為了配合時間軸的柔和感，給整頁加上淡淡的奶茶背景色 */}
       <main style={{ backgroundColor: "#fdfbf7", paddingBottom: "4rem", minHeight: "100vh" }}>
         <div className="container">
           

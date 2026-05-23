@@ -12,3 +12,9 @@ note:
   label: 切版網站
   permalink: /layout
   description: 前端靜態切版與 UI 實作
+
+react:
+  label: React
+  permalink: /react
+  description: React
+

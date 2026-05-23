@@ -281,16 +281,20 @@ span,
     text-align: center !important;
   }
 
-  /* 讓連結允許換行，且保持置中對齊 */
+  /* 強制連結保持一排，不換行 */
   .footer__items {
-    flex-wrap: wrap !important;
+    flex-wrap: nowrap !important;
     justify-content: center !important;
-    row-gap: 12px !important; /* 如果連結太多斷行時，上下拉開距離 */
   }
 
-  /* 稍微縮小手機版垂直線的左右間距 */
+  /* 縮小分隔線間距，讓四個連結擠得下 */
   .footer__item:not(:last-child)::after {
-    margin: 0 12px !important;
+    margin: 0 8px !important;
+  }
+
+  /* 稍微縮小字體，確保一行放得下 */
+  .footer__link-item {
+    font-size: 0.82rem !important;
   }
 
   /* 版權宣告區塊置中 */
