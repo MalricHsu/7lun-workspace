@@ -44,7 +44,6 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/MalricHsu/7lun-workspace/tree/main/",
         },
         blog: {
           showReadingTime: true,
