@@ -2,7 +2,7 @@
 slug: yestep-project
 title: YeStep 每一步，找回生活的呼吸
 authors: [7lun]
-tags: [project, React]
+tags: [project, react]
 date: 2026-05-23
 ---
 
