@@ -25,6 +25,7 @@
 <li class=""><strong>專案時程</strong>：2025.07.01 ~ 2025.10.02</li>
 <li class=""><strong>網站部署</strong>：GitHub Pages</li>
 </ul>
+<!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="一-主題發想">一、 主題發想<a href="https://malrichsu.github.io/7lun-workspace/blog/withyourlife-project#%E4%B8%80-%E4%B8%BB%E9%A1%8C%E7%99%BC%E6%83%B3" class="hash-link" aria-label="一、 主題發想的直接連結" title="一、 主題發想的直接連結" translate="no">​</a></h3>
 <p>專題發想來自組員在護理現場的親身觀察。台灣長照輔具的資訊分散、專業術語多，許多家庭在第一次面對照顧需求時，光是選輔具就已經手足無措，找資料反而比照顧本身還累。</p>
 <p>我們想做的不只是一個購物網站，而是一個讓照顧者真正用得上的平台——把複雜的輔具資訊整理清楚，用日常的語言說明用途，幫助家庭依照自己的環境與需求做出合適的選擇。品牌取名「伴你在日常」，也是希望這個平台能像一雙默默支持的手，陪著照顧者一起走過每一天。</p>
@@ -111,7 +112,9 @@
 <li class=""><strong>團隊角色</strong>：組長 / 前端開發(React) / API 模擬與部署(JSON Server)</li>
 <li class=""><strong>專案管理</strong>：Notion / GitHub / Discord</li>
 <li class=""><strong>專案時程</strong>：2025.10.15 ~ 2026.02.28</li>
+<li class=""><strong>網站部署</strong>：OnRender</li>
 </ul>
+<!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="一-主題發想">一、 主題發想<a href="https://malrichsu.github.io/7lun-workspace/blog/yestep-project#%E4%B8%80-%E4%B8%BB%E9%A1%8C%E7%99%BC%E6%83%B3" class="hash-link" aria-label="一、 主題發想的直接連結" title="一、 主題發想的直接連結" translate="no">​</a></h3>
 <p>組隊初期討論主題時，組員中有一位是親子家庭使用者，分享她在尋找適合帶孩子走的步道時，常面臨資訊分散的問題：步道資料散落在政府網站、登山部落格與社群論壇之間，難以一次比較難度、路程與適合對象。我們以此為起點延伸思考目標客群，發現這個痛點不只存在於親子家庭——對忙碌的上班族、尋求身心療癒的使用者而言，「想走出去」與「實際成行」之間，往往卡在資訊整合度不足這道門檻。</p>
 <p>YeStep 因此定位為一個整合性步道檢索平台，將分散的資訊收斂到單一介面，讓使用者依地區、難度、行走時間與景觀類型快速篩選，把「想出去走走」的念頭，轉化為實際可行的行程規劃。</p>

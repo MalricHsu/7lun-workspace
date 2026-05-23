@@ -1,41 +1,51 @@
-# Website
+# 7lun 的程式手冊
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+> 將設計稿轉化為直覺介面，記錄前端開發的生存軌跡。
 
-## Installation
+一個以 Docusaurus 建構的個人技術網站，用來整理前端學習筆記、記錄專案開發歷程，以及展示個人作品集。
 
-```bash
-yarn
-```
+🌐 **網站連結**：[https://MalricHsu.github.io/7lun-workspace/](https://MalricHsu.github.io/7lun-workspace/)
 
-## Local Development
+---
 
-```bash
-yarn start
-```
+## 網站內容
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+| 頁面 | 說明 |
+|------|------|
+| 首頁 | 個人介紹、技能總覽、作品預覽 |
+| 關於我 | 學習歷程與開發理念 |
+| 語法手冊 | HTML / CSS / JavaScript / Vue 學習筆記 |
+| 生存日誌 | 前端專案開發紀錄 |
+| 專案作品 | 個人與團隊作品展示 |
 
-## Build
+---
 
-```bash
-yarn build
-```
+## 技術棧
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- **框架**：[Docusaurus v3](https://docusaurus.io/)
+- **語言**：JavaScript / MDX / CSS
+- **部署**：GitHub Pages
+- **字體**：Noto Sans TC / Noto Serif TC
 
-## Deployment
+---
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
+## 本地開發
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+# 安裝套件
+npm install
+
+# 啟動開發伺服器
+npm start
+
+# 建置生產版本
+npm run build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 部署
+
+```bash
+GIT_USER=MalricHsu npm run deploy
+```
+
+執行後會自動建置並推送到 `gh-pages` 分支，稍等幾分鐘即可在網站看到更新。

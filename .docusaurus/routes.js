@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/7lun-workspace/__docusaurus/debug',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug', 'daa'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/config',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/config', '3b6'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/content',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/content', 'd3e'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/globalData',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/globalData', '478'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/metadata',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/metadata', '112'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/registry',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/registry', 'e94'),
-    exact: true
-  },
-  {
-    path: '/7lun-workspace/__docusaurus/debug/routes',
-    component: ComponentCreator('/7lun-workspace/__docusaurus/debug/routes', '789'),
-    exact: true
-  },
-  {
     path: '/7lun-workspace/about',
     component: ComponentCreator('/7lun-workspace/about', '1d1'),
     exact: true
