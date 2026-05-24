@@ -73,8 +73,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/MalricHsu/7lun-workspace/tree/main/"
+          "sidebarPath": "./sidebars.js"
         },
         "blog": {
           "showReadingTime": true,
